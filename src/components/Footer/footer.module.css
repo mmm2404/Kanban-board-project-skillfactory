@@ -1,0 +1,33 @@
+.Container {
+    background: rgba(0, 103, 163, 1);
+    display: flex;
+    justify-content: center;
+
+}
+.Footer {
+    width: 1240px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+  .Result {
+    display: flex;
+    margin-left: 20px;
+    padding-top: 15px;
+  }
+  .Footer span {
+    color: white;
+  }
+  .Signature {
+    padding-top: 15px;
+    margin-right: 20px;
+  }
+
+  @media (max-width: 560px){
+    
+  .Container {
+    display: none;
+  }
+  }

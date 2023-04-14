@@ -1,0 +1,17 @@
+.Container{
+    display: flex;
+    justify-content: space-around;
+    width: 1240px;
+    height: 85vh;
+  }
+  
+  
+  @media (max-width: 1130px) {
+    .Container {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 15px;
+      /* height: 100vh; */
+      margin-bottom: 20px;
+    }
+  }

@@ -1,0 +1,81 @@
+
+  button {
+    background: none;
+    border: none;
+    appearance: none;
+    font-size: 18px;
+    color:#5E6C84;
+    cursor: pointer;
+    background-color: transparent;
+    cursor: pointer;
+    
+
+  }
+
+  .Change {
+    margin-top: 30px;
+    margin-left: 28px;
+    background: rgb(39, 146, 207);
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+
+  .Change:hover{
+    font-weight: 700;
+    opacity: 0.85;
+  }
+
+
+  .Submit {
+
+    color: rgba(255, 255, 255, 1);
+    background: #0079BF;
+    border-radius: 5px;
+    width:102px;
+    height: 29px;
+    border: none;
+    font-size: 18px;
+ 
+
+  }
+
+  .btn:disabled {
+    cursor: not-allowed;
+    color: #a0acc0;
+    background-color: #dee0e7;
+  }
+
+  .btn:disabled {
+    color: #a57676;
+    cursor: none;
+  }
+  .btn:hover {
+    color: #000;
+  }
+  
+  .btn:hover:disabled {
+    color: #a57676;
+  }
+
+
+  .Dropdown {
+    width: 100%;
+    background: none;
+    border: 0;
+    font-size: 18px;
+    text-align:center;
+  }
+
+
+
+
+  @media (max-width: 560px){
+    .Change{
+      margin-bottom: 10px;
+    }
+  }
+ 
