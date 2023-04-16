@@ -7,7 +7,6 @@ import useLocalStorage from "./hooks/useLocalStorage";
 import backLogList from "./mockdata";
 
 function App() {
-  localStorage.clear();
   
   const [descTask, setDescTask] = useLocalStorage({}, "descTask")
   const [countActive, setCountActive] = useLocalStorage(0, "amountActive")
